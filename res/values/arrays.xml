@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="Planets">
+    <item>chengdu</item>
+    <item>Command two</item>
+    <item>Command three</item>
+    <item>Command four</item>
+</string-array>
+</resources>

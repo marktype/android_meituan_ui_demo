@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">meituan</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+<string name="hint_name_text">请输入用户名</string>
+ 	<string name="hint_password_text">请输入密码</string>
+ 	<string name="button_sure_text">登录</string>
+ 	<string name="button_register_text">注册</string>
+ 	<string name="meituan_free_register_txt">免费注册</string>
+ 	<string name="meituan_fast_enter_txt">无账号快捷登录</string>
+ 	<string name="meituan_cooperation_txt">使用合作网站账号进行登录</string>
+ 	<string name="meituan_content_one_txt">名店抢购</string>
+ 	<string name="meituan_content_two_txt">距离开始</string>
+ 	<string name="meituan_content_more_txt">更多</string>
+ 	<string name="meituan_my_txt">我的</string>
+ 	<string name="meituan_more_txt">更多</string>
+ 	<string name="weixin_text">微信登录</string>
+ 	<string name="find_password_text">忘记密码？</string>
+ 	<string name="meituan_find_password_txt">找回密码</string>
+ 	<string name="meituan_apply_txt">精品应用</string>
+ 	<string name="imp_text">接口</string>
+ 	<string name="inner_text">内部类</string>
+ 	<string name="xml_text">xml实现</string>
+ 	<string name="man_radio">男</string>
+ 	<string name="woman_radio">女</string>
+ 	<string name="system_text">系统定义</string>
+ 	<string name="own_text">自定义</string>
+ 	<string name="hint_text">小提示：第一次登录时请先注册！</string>
+ 	<string name="own_dialog_hint_txt">提示信息！</string>
+ 	<string name="own_dialog_content_txt">退出可能会丢失部分未保存的信息，确认退出？</string>
+ 	<string name="own_dialog_yes_txt">是</string>
+ 	<string name="own_dialog_no_txt">否</string>
+ 	<string name="menu_btn">菜单按钮</string>
+</resources>

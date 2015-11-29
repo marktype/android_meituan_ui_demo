@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    
+    <ImageView
+        android:id="@+id/practive_image1_list"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/meituan_image1"
+        
+       />
+
+    <ImageView
+        android:id="@+id/practive_image2_list"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_label_nobooking" 
+        />
+
+    <TextView
+        android:id="@+id/name_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/practive_image1_list"
+        android:text="天府美食坊"
+        android:textSize="18sp" 
+        />
+
+    <TextView
+        android:id="@+id/describe_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name_list"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/practive_image1_list"
+        android:text="代金卷全场可用" />
+
+    <TextView
+        android:id="@+id/price_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/describe_list"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/practive_image1_list"
+        android:text="9.9元" />
+
+    <TextView
+        android:id="@+id/price_cut1_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/describe_list"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="17dp"
+        android:layout_toRightOf="@id/price_list"
+       
+        android:textSize="12sp" />
+    <ImageView
+        android:id="@+id/price_image_list"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/describe_list"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="17dp"
+        android:layout_toRightOf="@id/price_list"
+        
+        />
+
+    <TextView
+        android:id="@+id/grade_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/describe_list"
+        android:layout_marginTop="15dp"
+        android:text="4.8分（100）" />
+
+</RelativeLayout>

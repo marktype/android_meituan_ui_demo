@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_grey"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_actionbar"
+        android:orientation="horizontal" >
+
+        <Spinner
+            android:id="@+id/meituan_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/aaaaaaaa"
+            
+             />
+
+        <!-- dropDown  下拉列表设置  ，offset 偏移量，左为负，右为正 -->
+
+        <AutoCompleteTextView
+            android:id="@+id/search_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="60dp"
+            android:background="@drawable/bg_global_search_textbox"
+            android:dropDownHorizontalOffset="-80dp"
+            android:dropDownVerticalOffset="10dp"
+            android:dropDownWidth="match_parent"
+            android:hint="请输入搜索信息"
+            android:paddingLeft="40dp"
+            android:paddingRight="20dp"
+            android:singleLine="true"
+            android:textColorHint="@android:color/white"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/search_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="90dp"
+            android:src="@drawable/ic_search_green" />
+
+        <ImageView
+            android:id="@+id/search_Txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/ic_action_map" />
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/meituan_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:numColumns="4" >
+    </GridView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+         >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/center_one_img"
+            android:src="@drawable/bargain_title" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:id="@+id/center_two_txt"
+            android:layout_marginLeft="15dp"
+            android:textSize="15sp"
+            android:layout_toRightOf="@id/center_one_img"
+            android:text="@string/meituan_content_two_txt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_special_countdown"
+             android:id="@+id/center_three_txt"
+              android:layout_marginLeft="15dp"
+              android:layout_centerVertical="true"
+              android:textSize="18sp"
+            android:layout_toRightOf="@id/center_two_txt"
+            android:text="02" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:id="@+id/center_four_txt"
+             android:layout_centerVertical="true"
+             android:textSize="18sp"
+            android:layout_toRightOf="@id/center_three_txt"
+            android:text="：" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_special_countdown"
+            android:id="@+id/center_five_txt"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/center_four_txt"
+            android:text="06" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/center_six_txt"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/center_five_txt"
+            android:text="：" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_special_countdown"
+            android:id="@+id/center_seven_txt"
+            android:layout_centerVertical="true"
+            android:textSize="18sp"
+            android:layout_toRightOf="@id/center_six_txt"
+            android:text="14" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            
+            android:background="@color/light_grey"
+            android:textSize="15sp"
+           android:layout_alignParentRight="true"
+            android:drawableRight="@drawable/ic_global_arrow_right"
+            android:text="@string/meituan_content_more_txt" />
+    </RelativeLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <ListView
+        android:id="@+id/meituan_listview"
+        android:layout_width="0dp"
+        android:layout_height="150dp" 
+        android:layout_weight="1"
+        >
+    </ListView>
+    
+    <ListView
+        android:id="@+id/meituan_Two_listview"
+        android:layout_width="0dp"
+        android:layout_height="150dp" 
+        android:layout_weight="1"
+        >
+    </ListView>
+    <ListView
+        android:id="@+id/meituan_three_listview"
+        android:layout_width="0dp"
+        android:layout_height="150dp" 
+        android:layout_weight="1"
+        >
+    </ListView>
+    
+</LinearLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/meituan_viewpager_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
